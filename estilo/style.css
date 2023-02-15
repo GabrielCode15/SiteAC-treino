@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+
+}
+
+
+header{
+    background-color: grey;
+    padding: 37px;
+    background-image: url('../Imagens/fundo1.jpg');
+    background-position: top
+    center;
+    background-repeat:repeat;
+    background-size: cover;
+   
+
+
+}
+
+
+header > h1{
+
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-shadow: 6px 6px 10px black;
+    font-size: 35px;
+}
+
+
+nav{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.11);
+    background-repeat: repeat-y;
+    border-style: solid;
+    border-color: white;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+
+
+
+
+a > img{
+
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    margin: 60px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-style: outset;
+    border-color:cornsilk;
+    border-width: 4px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.65);
+    
+    
+}
+
+
+a > img:hover{
+
+        border-style: outset;
+        border-color: white;
+        border-width: 4px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.581);
+        transform: translate(10px, -5px);
+        transition: transform 0.5s;
+
+}
+
+
+
+main {
+    position: relative;
+   height: 100vh;
+   background-color: bisque;
+   background-image: url('../Imagens/snow-hd-wallpaper-and-background-image-xmybppqawa1un4yc.jpg');
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+section#computador{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 1100px;
+    height: 809px;
+    background-image: url('../Imagens/computador.png');
+    background-repeat: no-repeat;
+}
+
+
+#fundo{
+    position: relative;
+    width: 641px;
+    height: 364px;
+    top:16.2%;
+    left: 20.8%;
+
+}
+
